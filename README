@@ -1,1 +1,37 @@
-cb
+Here are some instructions for using Ubox:
+
+Installation -
+mac:      http://code.google.com/p/git-osx-installer
+
+windows:  http://code.google.com/p/msysgit
+
+Linux:    If you want to install Git on Linux via a binary installer, you can generally do so through 
+          the basic package-management tool that comes with your distribution. 
+          If you’re on Fedora, you can use yum: 
+          $ yum install git-core 
+          Or if you’re on a Debian-based distribution like Ubuntu, try apt-get: 
+          $ apt-get install git-core
+
+Setting up your profile -
+$ git config --global user.name 
+"John Doe" 
+$ git config --global user.email 
+johndoe@example.com
+
+Choosing an editor -
+$ git config --global merge.tool 
+vimdiff
+
+(vimdiff is just an example)
+
+See your settings - 
+$ git config --list
+
+Getting help -
+$ git help <verb>
+
+ex:       $ git help config
+
+
+All of this information came from
+Scott Chacon. Pro Git (Kindle Location 207). github.com/danchoi/docs_on_kindle. 
