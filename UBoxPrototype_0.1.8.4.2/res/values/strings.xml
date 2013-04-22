@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UBoxPrototype</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_gmail">GMail</string>
+    <string name="title_activity_yahoo">Yahoo</string>
+    <string name="title_activity_hotmail_outlook">HotmailOutlook</string>
+    <string name="title_activity_facebook">Facebook</string>
+    <string name="title_activity_twitter">Twitter</string>
+    <string name="title_activity_flickr">Flickr</string>
+    <string name="title_activity_feeder">Feeder</string>
+    <string name="title_activity_rss">Rss</string>
+    <string name="title_activity_text_sms">TextSMS</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_mail_wrapper">MailWrapper</string>
+    <string name="title_activity_email_reader">EmailReader</string>
+    <string name="title_activity_mail_sender">MailSenderActivity</string>
+    <string name="title_activity_emailinbox">EmailinboxActivity</string>
+    <string name="title_activity_send_yahoo">SendYahoo</string>
+    <string name="title_activity_class">Class</string>
+
+</resources>

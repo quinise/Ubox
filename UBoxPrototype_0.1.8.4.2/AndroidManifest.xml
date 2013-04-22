@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teamsix.uboxprototype"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ubox"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.teamsix.uboxprototype.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamsix.uboxprototype.MainMenu"
+            android:label="@string/title_activity_main_menu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamsix.uboxprototype.GMail"
+            android:label="@string/title_activity_gmail" >
+        </activity>
+        <activity
+            android:name="com.teamsix.uboxprototype.Yahoo"
+            android:label="@string/title_activity_yahoo" >
+        </activity>
+        <activity
+            android:name="com.teamsix.uboxprototype.HotmailOutlook"
+            android:label="@string/title_activity_hotmail_outlook" >
+        </activity>
+        <activity
+            android:name="com.teamsix.uboxprototype.Facebook"
+            android:label="@string/title_activity_facebook" >
+        </activity>
+        <activity
+            android:name="com.teamsix.uboxprototype.Twitter"
+            android:label="@string/title_activity_twitter" >
+        </activity>
+        <activity
+            android:name="com.teamsix.uboxprototype.Flickr"
+            android:label="@string/title_activity_flickr" >
+        </activity>
+        <activity
+            android:name="com.teamsix.uboxprototype.Feeder"
+            android:label="@string/title_activity_feeder" >
+        </activity>
+        <activity
+            android:name="com.teamsix.uboxprototype.Rss"
+            android:label="@string/title_activity_rss" >
+        </activity>
+        <activity
+            android:name="com.teamsix.uboxprototype.TextSMS"
+            android:label="@string/title_activity_text_sms" >
+        </activity>
+        <activity
+            android:name="com.teamsix.uboxprototype.MailWrapper"
+            android:label="@string/title_activity_mail_wrapper" >
+        </activity>
+        <activity
+            android:name="com.teamsix.uboxprototype.EmailReader"
+            android:label="@string/title_activity_email_reader" >
+        </activity>
+        <activity
+            android:name="com.teamsix.uboxprototype.MailSenderActivity"
+            android:label="@string/title_activity_mail_sender" >
+        </activity>
+        <activity
+            android:name="com.teamsix.uboxprototype.EmailinboxActivity"
+            android:label="@string/title_activity_emailinbox" >
+        </activity>
+        <activity
+            android:name="com.teamsix.uboxprototype.SendYahoo"
+            android:label="@string/title_activity_send_yahoo" >
+        </activity>
+        <activity
+            android:name="com.teamsix.uboxprototype.Class"
+            android:label="@string/title_activity_class" >
+        </activity>
+    </application>
+
+</manifest>
